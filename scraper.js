@@ -22,7 +22,7 @@ request(url,(err,res,html)=>{
       console.log(link);
       WriteStream.write(link);
       var newDir=`./images/${webName}`
-      if(!fs.existsSync(newDir)){
+      if(!fs.existsSync(newDir))https://github.com/shammahm24/imageScraper.git{
         fs.mkdirSync(newDir);
       }
 
