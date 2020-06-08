@@ -1,0 +1,16 @@
+{
+  "name": "imagescrapper",
+  "version": "1.0.0",
+  "description": "Downloads images from a selected website",
+  "main": "scrapper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shammah Matasva",
+  "license": "ISC",
+  "dependencies": {
+    "cherio": "^1.0.0-rc.2",
+    "fs": "0.0.1-security",
+    "request": "^2.88.2"
+  }
+}
